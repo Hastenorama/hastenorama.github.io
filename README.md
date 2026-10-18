@@ -14,5 +14,3 @@ You can view the live website here: https://hastenorama.github.io/
 - style.css - The stylesheet containing all page layouts
 - images folder - Folder containing the profile photo
 
-- 
-

@@ -1,24 +1,8 @@
-@media(min-width:768px){
-	#about-section, #education-section{
-		display: flex;
-		gap: 10px;
-	}
-
+@media (max-width: 767.98px) {
 	.cover-letter {
-		padding: 35px;
+		padding: 20px;
 	}
 }
-
-@media(max-width:768px){
-    #about-section div, #education-section div, #experience-section div {
-		margin:6px;
-	}
-}
-
-* {
-    box-sizing: border-box;
-}
-
 body{
 	background: #FFF9E8;
 	color: #263746;
@@ -50,26 +34,12 @@ body{
     border-radius: 50%;
 }
 
-#about-section div, #education-section div, #skillset div{
-    border: 1px solid #E1E7EC;
-	box-shadow: 0 3px 8px rgba(23, 59, 87, 0.08);
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.about-box,.education-box,.skills-box{
-	flex:1;
-	background: #FFFFFF;
+.about-box, .education-box, .skills-box, .experience-box{
+    background: #FFFFFF;
 	border-radius: 8px;
-}
-
-.experience-box {
-	background: #FFFFFF;
 	border: 1px solid #E1E7EC;
-	box-shadow: 0 3px 8px rgba(23, 59, 87, 0.08);
-	border-radius: 8px;
-	padding: 10px;
-	margin-bottom: 10px;
+	box-shadow: 0 3px 8px #173b5714;
+    padding: 10px;
 }
 
 h1, h2, h3 {
@@ -99,14 +69,8 @@ a:hover {
 	text-shadow: 2px 2px grey;
 }
 
-.education-box{
-	flex-basis: 30%;
-}
-
-#experience-section {
-    display: block;
-	margin-bottom: 5px;
-    padding-bottom: 0px;
+#about-section, #education-section, #experience-section {
+	margin-bottom: 10px;
 }
 
 .experience-item h3 {
@@ -114,8 +78,6 @@ a:hover {
 }
 
 .cover-letter {
-	width:100%;
-	max-width: 800px;
 	margin: 30px auto;
 	padding: 35px;
 	background: white;
